@@ -1,0 +1,6 @@
+{
+  "go.buildOnSave": "workspace",
+  "go.buildFlags": [
+    "grapi-sample/cmd/server"
+  ]
+}

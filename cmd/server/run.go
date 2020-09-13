@@ -4,6 +4,7 @@ import (
 	"github.com/srvc/appctx"
 
 	"github.com/izumin5210/grapi/pkg/grapiserver"
+	"github.com/tanimutomo/grapi-sample/app/server"
 )
 
 func run() error {
@@ -13,7 +14,7 @@ func run() error {
 	s := grapiserver.New(
 		grapiserver.WithDefaultLogger(),
 		grapiserver.WithServers(
-		// TODO
+			server.NewBookServiceServer(),
 		),
 	)
 	return s.Serve(ctx)

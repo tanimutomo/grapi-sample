@@ -1,4 +1,4 @@
-module grapi-sample
+module github.com/tanimutomo/grapi-sample
 
 go 1.13
 
@@ -8,6 +8,7 @@ require (
 	github.com/izumin5210/gex v0.5.1
 	github.com/izumin5210/grapi v0.5.0
 	github.com/srvc/appctx v0.1.0
+	google.golang.org/genproto v0.0.0-20200806141610-86f49bd18e98
 	google.golang.org/grpc v1.32.0
 	google.golang.org/grpc/examples v0.0.0-20200910201057-6591123024b3 // indirect
 )
